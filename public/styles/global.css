@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('/fonts/PTSansNarrow-Regular.tff') format('tff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  section {
+      font-family: 'PT Sans Narrow', sans-serif;
+  }
