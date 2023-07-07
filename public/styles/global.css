@@ -17,3 +17,6 @@
   section {
       font-family: 'PT Sans Narrow', sans-serif;
   }
+
+  /* X-cloak CSS to hide X-show elements on page load */
+  [x-cloak] { display: none !important; }
