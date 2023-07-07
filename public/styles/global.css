@@ -1,9 +1,17 @@
 @font-face {
     font-family: 'PT Sans Narrow';
-    src: url('/fonts/PTSansNarrow-Regular.tff') format('tff');
+    src: url('/fonts/PT-Sans-Narrow-400.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/fonts/PT-Sans-Narrow-700.woff2') format('woff2');
   }
   
   section {
