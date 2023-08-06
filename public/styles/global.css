@@ -1,13 +1,13 @@
-@font-face {
-    font-family: 'PT Sans Narrow';
+  @font-face {
+    font-family: 'Albert Sans';
     src: url('/fonts/PT-Sans-Narrow-400.woff2') format('woff2');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
 
   @font-face {
-    font-family: 'PT Sans Narrow';
+    font-family: 'Albert Sans';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
@@ -15,6 +15,6 @@
   }
   
 body {
-      font-family: 'PT Sans Narrow', sans-serif;
+      font-family: 'Albert Sans', sans-serif;
       letter-spacing: -0.03em;
 }

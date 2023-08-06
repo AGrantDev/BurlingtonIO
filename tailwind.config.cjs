@@ -257,15 +257,15 @@ module.exports = {
             DEFAULT: '1',
         },
         fontFamily: {
-            display: ['"PT Sans Narrow", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'],
-            body: ['"PT Sans Narrow", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'],
+            display: ['"Albert Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'],
+            body: ['"Albert Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'],
         },
         fontSize: {
             xs: ['0.75rem', { lineHeight: '1rem' }],
             sm: ['0.875rem', { lineHeight: '1.25rem' }],
             base: ['1rem', { lineHeight: '1.5rem' }],
             lg: ['1.125rem', { lineHeight: '1.75rem' }],
-            xl: ['1.25rem', { lineHeight: '1.75rem' }],
+            xl: ['1.35rem', { lineHeight: '1.75rem' }],
             '2xl': ['1.5rem', { lineHeight: '2rem' }],
             '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
             '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
