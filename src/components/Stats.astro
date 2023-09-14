@@ -6,7 +6,7 @@ let stats = [
   },
   {
     h4: 'Improving speeds by 0.1 seconds',
-    span: 'decreases bounce rate by a whopping 8.3%'
+    span: 'decreases bounce rate by 8.3%'
   },
   {
     h4: 'Bounce rates increase 106%',
@@ -23,19 +23,19 @@ let stats = [
 STATS
 ============== 
 -->
-<section class="py-20 2xl:py-40 bg-gray-800">
-  <div class="bg-gray-800 max-w-xl mx-auto mb-16 lg:mb-28 px-3 text-center">
-    <h2 class="mt-8 text-6xl text-white font-heading">
+<section class="py-20 2xl:py-40 ">
+  <div class=" max-w-xl mx-auto mb-16 lg:mb-28 px-3 text-center">
+    <h2 class="mt-8 text-6xl text-white ">
       Why Is Page Speed Important?
     </h2>
   </div>
   <!-- Card List -->
-  <ul class="stack-cards js-stack-cards bg-gray-700 sm:px-2 md: px-12 lg:px-28 pt-8">
+  <ul class="stack-cards js-stack-cards sm:px-2 md: px-12 lg:px-28 pt-8">
     <!-- Cards -->
     {stats.map((stat) => (
-      <li class="stack-cards__item bg-gray-800 border border-solid border-white rounded-lg shadow-lg pt-12 overflow-hidden js-stack-cards__item">
+      <li class="stack-cards__item bg-body border border-solid border-white rounded-lg shadow-lg pt-12 overflow-hidden js-stack-cards__item">
           <div class="flex items-center w-full px-4 sm:px-32 mb-16 lg:mb-0 text-center lg:text-left">
-              <h4 class="font-heading text-3xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-burlingtonBlue to-blue-500 mb-5">{stat.h4}
+              <h4 class=" text-3xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-burlingtonBlue to-blueGray-500 mb-5">{stat.h4}
               <span class = "text-white">{stat.span}</span>
               </h4>
           </div>
