@@ -1,0 +1,35 @@
+{
+  "main": [
+    {
+      "name": "Services",
+      "url": "#services"
+    },
+    {
+      "name": "Our Work",
+      "url": "/#ourwork"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+
+  "footer": [
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "Elements",
+      "url": "/elements"
+    },
+    {
+      "name": "Changelog",
+      "url": "/changelog"
+    }
+  ]
+}

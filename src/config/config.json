@@ -1,0 +1,49 @@
+{
+  "site": {
+    "title": "BurlingtonIO",
+    "base_url": "https://burlingtonio.com",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/BIO-SVG-Logo.png",
+    "logo": "/images/BIO-SVG.png",
+    "logo_width": "147",
+    "logo_height": "31",
+    "logo_text": "BurlingtonIO"
+  },
+
+  "settings": {
+    "pagination": 6,
+    "summary_length": 100,
+    "blog_folder": "blog"
+  },
+
+  "call_to_action": {
+    "title": "Start your project today",
+    "description": "Whether you need a quote or just want to discuss project specifications; reach out to us and we'll be happy to help",
+    "button": {
+      "label": "Contact BurlingtonIO",
+      "link": "/contact"
+    }
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "BurlingtonIO",
+    "settings": {}
+  },
+
+  "params": {
+    "footer_description": "Web development services in DFW",
+    "email": "anthony.grant.mail@gmail.com",
+    "location": "Haslet, TX 76052",
+    "phone": "",
+    "contact_form_action": "https://formspree.io/f/myyqyykz",
+    "copyright": "Copyright © 2024 BurlingtonIO"
+  },
+
+  "metadata": {
+    "meta_author": "BurlingtonIO",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "BurlingtonIO"
+  }
+}

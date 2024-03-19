@@ -1,0 +1,33 @@
+---
+import Base from "@layouts/Base.astro";
+import Banner from "@layouts/components/Banner.astro";
+import KeyFeatures from "@layouts/components/KeyFeatures.astro";
+import Testimonial from "@layouts/components/Testimonial.astro";
+import Service from "@layouts/components/Service.astro";
+import Portfolio from "@layouts/components/Portfolio.astro";
+import Cta from "@layouts/partials/Cta.astro";
+import Works from "@components/about/Works.astro";
+import PageHeader from "@components/PageHeader.astro";
+import { getSinglePage } from "@lib/contentParser.astro";
+import { getTaxonomy } from "@lib/taxonomyParser.astro";
+import { getEntryBySlug } from "astro:content";
+
+const homepage = await getEntryBySlug("homepage", "index");
+const { banner, key_features, service, testimonial,features } = homepage.data;
+
+---
+
+<Base>
+  <!-- banner -->
+  <Banner banner={banner} />
+  <!-- our works -->
+  <Works features={features} />
+  <!-- service -->
+  <Service service={service} />
+  <!-- portfolio -->
+  <Portfolio/>
+  <!-- testimonial -->
+  <Testimonial testimonial={testimonial} />
+  <!-- call to action -->
+  <Cta />
+</Base>
