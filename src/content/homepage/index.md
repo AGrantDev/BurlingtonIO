@@ -30,12 +30,12 @@ service:
       list:
         - Support your customers with business applications
         - Employee portals, e-commerce, administrative dashboards
-        - All solutions are custom-made
+        - All solutions are custom
   web_sites:
   - title: Websites, Landing Pages, and More
     image: "/images/feature-image02.jpg"
     list:
-      - Serve your content quickly and efficiently
+      - Serve content quickly and efficiently
       - No proprietary web builders, you own your code
       - Designs catered to your brand
 
