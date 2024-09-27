@@ -30,14 +30,14 @@ service:
       list:
         - Support your customers with business applications
         - Employee portals, e-commerce, administrative dashboards
-        - All solutions are custom
+        - Don't need a full application? Extend your business software with code
   web_sites:
   - title: Websites, Landing Pages, and More
     image: "/images/feature-image02.jpg"
     list:
       - Serve content quickly and efficiently
-      - No proprietary web builders, you own your code
-      - Designs catered to your brand
+      - Take your project anywhere, you own your code
+      - Host with your provider of choice, or in the cloud
 
 #testimonial
 testimonial:
@@ -61,9 +61,9 @@ features:
   title: BurlingtonIO serves your small business
   features_list:
     - title: Web Development
-      content: Full scale web application services to bring your business ideas to life; optimized from the server to your customer. Bespoke builds tailored to your business
+      content: Full scale web application services to bring your business ideas to life; optimized from the server to your customer. Bespoke builds tailored to your business; from small scripts to complete systems
     - title: Static Websites
-      content: Blazing fast websites that will put your business in front of more customers; no more bloated web pages. Integrations with your favorite CMS
-    - title: Web Hosting
-      content: Around the clock server management; we can host your website or application with affordable plans. Available for both static websites and applications
+      content: Blazing fast websites that will put your business in front of more customers; no more bloated web pages. Landing pages, single page applications, and integrations with your favorite CMS are available
+    - title: Cloud Applications
+      content: Bring your business to the cloud. Cloud infrastructure offers scalable, affordable, and reliable hosting for your business application. Microservices and serverless solutions to future-proof your software
 ---
